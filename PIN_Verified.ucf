@@ -1,0 +1,68 @@
+# OK
+NET "sys_clk"                   LOC = "AF13";   # 50MHz
+NET "sys_rst"                  LOC = "K14";
+
+## OK
+NET "din[0]"            LOC = "H9 ";    # 右1开关的编号8的开关
+NET "din[1]"            LOC = "G9 ";
+NET "din[2]"            LOC = "G8 ";
+NET "din[3]"            LOC = "F7 ";
+NET "din[4]"            LOC = "F12" ;
+NET "din[5]"            LOC = "B4 " ;
+NET "din[6]"            LOC = "A4 " ;
+NET "din[7]"            LOC = "D5 " ;   # 右1开关的编号0的开关
+
+## OK
+NET "din[8]"            LOC = "C5" ;    # 右2开关的编号8的开关
+NET "din[9]"            LOC = "A5" ;
+NET "din[10]"            LOC = "B6" ;
+NET "din[11]"            LOC = "D6" ;
+NET "din[12]"            LOC = "E6";
+NET "din[13]"            LOC = "D7";
+NET "din[14]"            LOC = "C7";
+NET "din[15]"            LOC = "D8";     # 右2开关的编号0的开关
+
+#
+NET "din[16]"            LOC = "C8 " ;   # 右3开关的编号8的开关
+NET "din[17]"            LOC = "E9 " ;                         
+NET "din[18]"            LOC = "C9 " ;                         
+NET "din[19]"            LOC = "E10" ;                         
+NET "din[20]"            LOC = "C10";                          
+NET "din[21]"            LOC = "D10";                          
+NET "din[22]"            LOC = "C11";                          
+NET "din[23]"            LOC = "E12";    # 右3开关的编号0的开关
+
+NET "din[24]"            LOC = "C12" ;   # 右4开关的编号8的开关
+NET "din[25]"            LOC = "F13" ;                         
+NET "din[26]"            LOC = "D13" ;                         
+NET "din[27]"            LOC = "H15" ;                         
+NET "din[28]"            LOC = "F14";                          
+NET "din[29]"            LOC = "E14";                          
+NET "din[30]"            LOC = "H16";                          
+NET "din[31]"            LOC = "F16";    # 右4开关的编号0的开关
+
+NET "dout2[7]"                LOC = "U13 " ;  # 右1，4位7段数码管
+NET "dout2[6]"                LOC = "V11 " ;
+NET "dout2[5]"                LOC = "V16 " ;
+NET "dout2[4]"                LOC = "Y18 " ;
+NET "dout2[3]"                LOC = "AA19" ;
+NET "dout2[2]"                LOC = "U12 " ;
+NET "dout2[1]"                LOC = "V15 " ;
+NET "dout2[0]"               LOC = "W17 " ;
+NET "sel2[4]"           LOC = "V14 " ;
+NET "sel2[3]"           LOC = "W13 " ;
+NET "sel2[2]"           LOC = "V13 " ;
+NET "sel2[1]"           LOC = "U15 " ;
+
+NET "dout1[7]"                LOC = "AD17" ;  # 右2，4位7段数码管
+NET "dout1[6]"                LOC = "AC20" ;
+NET "dout1[5]"                LOC = "AF19" ;
+NET "dout1[4]"                LOC = "AF17" ;
+NET "dout1[3]"                LOC = "AF16" ;
+NET "dout1[2]"                LOC = "AE17" ;
+NET "dout1[1]"                LOC = "AD21" ;
+NET "dout1[0]"               LOC = "AF18" ;
+NET "sel1[4]"           LOC = "AC16" ;
+NET "sel1[3]"           LOC = "AE19" ;
+NET "sel1[2]"           LOC = "AD19" ;
+NET "sel1[1]"           LOC = "AB18" ;

@@ -1,0 +1,266 @@
+{G:/Computer Org Projects/P8/src/mips/control/Decoder.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/control/Decoder.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}} {G:/Computer Org Projects/P8/src/diginumber.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/diginumber.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module DigiNumber
+
+Top level modules:
+	DigiNumber
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/Comparer.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/Comparer.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Comparer
+
+Top level modules:
+	Comparer
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/AddrAnalyzer.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/AddrAnalyzer.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module AddrAnalyzer
+
+Top level modules:
+	AddrAnalyzer
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/control/control_w.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/control/control_w.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Control_W
+
+Top level modules:
+	Control_W
+
+} {} {}} {G:/Computer Org Projects/P8/src/timecounter.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/timecounter.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module timecounter
+
+Top level modules:
+	timecounter
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/Reg_M.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/Reg_M.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Reg_M
+
+Top level modules:
+	Reg_M
+
+} {} {}} {G:/Computer Org Projects/P8/public.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/public.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/control/control.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/control/control.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/HILO.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/HILO.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module HILO
+
+Top level modules:
+	HILO
+
+} {} {}} {G:/Computer Org Projects/P8/src/clk_50to10.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/clk_50to10.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module clk_50to10
+
+Top level modules:
+	clk_50to10
+
+} {} {}} {G:/Computer Org Projects/P8/cp0.v} {0 {vlog -work work -vopt {G:/Computer Org Projects/P8/cp0.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+** Error: G:/Computer Org Projects/P8/cp0.v(1): Cannot find `include file "..\public.v" in directories:
+    E:/Program Files/modeltech_10.1a/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, E:/Program Files/modeltech_10.1a/uvm-1.1a/../verilog_src/uvm-1.1a/src
+-- Compiling module cp0
+** Error: G:/Computer Org Projects/P8/cp0.v(26): (vlog-2163) Macro `CP0_SR is undefined.
+
+** Error: G:/Computer Org Projects/P8/cp0.v(26): near ")": syntax error, unexpected ')'
+** Error: G:/Computer Org Projects/P8/cp0.v(27): (vlog-2163) Macro `CP0_CAUSE is undefined.
+
+** Error: G:/Computer Org Projects/P8/cp0.v(28): (vlog-2163) Macro `CP0_EPC is undefined.
+
+** Error: G:/Computer Org Projects/P8/cp0.v(29): (vlog-2163) Macro `CP0_PRID is undefined.
+
+** Error: G:/Computer Org Projects/P8/cp0.v(47): (vlog-2163) Macro `CP0_SR is undefined.
+
+** Error: G:/Computer Org Projects/P8/cp0.v(47): near ":": syntax error, unexpected ':'
+** Error: G:/Computer Org Projects/P8/cp0.v(53): (vlog-2163) Macro `CP0_EPC is undefined.
+
+** Error: G:/Computer Org Projects/P8/cp0.v(53): End label 'EPC' not allowed with an unnamed block.
+** Error: G:/Computer Org Projects/P8/cp0.v(53): near "=": syntax error, unexpected '='
+** Error: G:/Computer Org Projects/P8/cp0.v(55): (vlog-2163) Macro `CP0_PRID is undefined.
+
+
+} {3.0 4.0 6.0 7.0 8.0 10.0 11.0 12.0 13.0 14.0 15.0 16.0 17.0 19.0 20.0 23.0} {}} {G:/Computer Org Projects/P8/src/mini_test.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mini_test.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mini_test
+
+Top level modules:
+	mini_test
+
+} {} {}} {G:/Computer Org Projects/P8/src/numbers.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/numbers.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Numbers
+
+Top level modules:
+	Numbers
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/im.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/im.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_4k
+
+Top level modules:
+	im_4k
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/cp0/cp0.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/cp0/cp0.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module cp0
+
+Top level modules:
+	cp0
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/Extender.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/Extender.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Extender
+
+Top level modules:
+	Extender
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/control/control_m.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/control/control_m.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Control_M
+
+Top level modules:
+	Control_M
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/dm.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/dm.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_4k
+
+Top level modules:
+	dm_4k
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/Reg_D.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/Reg_D.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Reg_D
+
+Top level modules:
+	Reg_D
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/Reg_E.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/Reg_E.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Reg_E
+
+Top level modules:
+	Reg_E
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/NextPC.v} {1 {vlog -work work -vopt {G:\Computer Org Projects\P8\src\mips\datapath\NextPC.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module NextPC
+
+Top level modules:
+	NextPC
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/becalc.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/becalc.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module becalc
+
+Top level modules:
+	becalc
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/alu.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/alu.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/control/HazardHandler.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/control/HazardHandler.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module HazardHandler
+
+Top level modules:
+	HazardHandler
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/mips.v} {1 {vlog -work work -vopt {G:\Computer Org Projects\P8\src\mips\mips.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/PC.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/PC.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {G:/Computer Org Projects/P8/src/mini_machine.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mini_machine.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mini_machine
+
+Top level modules:
+	mini_machine
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/Reg_W.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/Reg_W.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Reg_W
+
+Top level modules:
+	Reg_W
+
+} {} {}} {G:/Computer Org Projects/P8/src/switches.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/switches.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Switches
+
+Top level modules:
+	Switches
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/RegFile.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/RegFile.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/MemExtender.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/MemExtender.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module MemExtender
+
+Top level modules:
+	MemExtender
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/control/control_d.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/control/control_d.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Control_D
+
+Top level modules:
+	Control_D
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/datapath/ireg.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/datapath/ireg.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ireg
+
+Top level modules:
+	ireg
+
+} {} {}} {G:/Computer Org Projects/P8/src/mips/control/control_e.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/mips/control/control_e.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Control_E
+
+Top level modules:
+	Control_E
+
+} {} {}} {G:/Computer Org Projects/P8/src/bridge.v} {1 {vlog -work work -vopt {G:/Computer Org Projects/P8/src/bridge.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module Bridge
+
+Top level modules:
+	Bridge
+
+} {} {}}

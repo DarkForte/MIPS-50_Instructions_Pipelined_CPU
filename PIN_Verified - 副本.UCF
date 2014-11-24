@@ -1,0 +1,102 @@
+# OK
+NET "sys_clk"                   LOC = "AF13";   # 50MHz
+NET "sys_rst"                  LOC = "K14";    # 按下为0，代表复位
+
+# OK
+NET "user_pb[1]"                LOC = "J11";    # S1 on board
+NET "user_pb[2]"                LOC = "J12";    # S2 on board
+NET "user_pb[3]"                LOC = "K12";    # S3 on board
+NET "user_pb[4]"                LOC = "J13";    # S4 on board
+
+# OK
+NET "user_led[0]"               LOC = "C16";    # 16个LED的最右端
+NET "user_led[1]"               LOC = "E16"; 
+NET "user_led[2]"               LOC = "C17"; 
+NET "user_led[3]"               LOC = "E17"; 
+NET "user_led[4]"               LOC = "C18"; 
+NET "user_led[5]"               LOC = "B18"; 
+NET "user_led[6]"               LOC = "F18"; 
+NET "user_led[7]"               LOC = "C19"; 
+NET "user_led[8]"               LOC = "A20"; 
+NET "user_led[9]"               LOC = "A19"; 
+NET "user_led[11]"              LOC = "C20"; 
+NET "user_led[10]"              LOC = "E19"; 
+NET "user_led[12]"              LOC = "E20"; 
+NET "user_led[13]"              LOC = "C21"; 
+NET "user_led[14]"              LOC = "A21"; 
+NET "user_led[15]"              LOC = "B20";    # 16个LED的最左端
+
+## OK
+NET "user0_dipsw[0]"            LOC = "H9 ";    # 右1开关的编号8的开关
+NET "user0_dipsw[1]"            LOC = "G9 ";
+NET "user0_dipsw[2]"            LOC = "G8 ";
+NET "user0_dipsw[3]"            LOC = "F7 ";
+NET "user0_dipsw[4]"            LOC = "F12" ;
+NET "user0_dipsw[5]"            LOC = "B4 " ;
+NET "user0_dipsw[6]"            LOC = "A4 " ;
+NET "user0_dipsw[7]"            LOC = "D5 " ;   # 右1开关的编号0的开关
+
+## OK
+NET "user1_dipsw[0]"            LOC = "C5" ;    # 右2开关的编号8的开关
+NET "user1_dipsw[1]"            LOC = "A5" ;
+NET "user1_dipsw[2]"            LOC = "B6" ;
+NET "user1_dipsw[3]"            LOC = "D6" ;
+NET "user1_dipsw[4]"            LOC = "E6";
+NET "user1_dipsw[5]"            LOC = "D7";
+NET "user1_dipsw[6]"            LOC = "C7";
+NET "user1_dipsw[7]"            LOC = "D8";     # 右2开关的编号0的开关
+
+#
+NET "user2_dipsw[0]"            LOC = "C8 " ;   # 右3开关的编号8的开关
+NET "user2_dipsw[1]"            LOC = "E9 " ;                         
+NET "user2_dipsw[2]"            LOC = "C9 " ;                         
+NET "user2_dipsw[3]"            LOC = "E10" ;                         
+NET "user2_dipsw[4]"            LOC = "C10";                          
+NET "user2_dipsw[5]"            LOC = "D10";                          
+NET "user2_dipsw[6]"            LOC = "C11";                          
+NET "user2_dipsw[7]"            LOC = "E12";    # 右3开关的编号0的开关
+
+NET "user3_dipsw[0]"            LOC = "C12" ;   # 右4开关的编号8的开关
+NET "user3_dipsw[1]"            LOC = "F13" ;                         
+NET "user3_dipsw[2]"            LOC = "D13" ;                         
+NET "user3_dipsw[3]"            LOC = "H15" ;                         
+NET "user3_dipsw[4]"            LOC = "F14";                          
+NET "user3_dipsw[5]"            LOC = "E14";                          
+NET "user3_dipsw[6]"            LOC = "H16";                          
+NET "user3_dipsw[7]"            LOC = "F16";    # 右4开关的编号0的开关
+
+NET "seg4x7_1_a"                LOC = "U13 " ;  # 右1，4位7段数码管
+NET "seg4x7_1_b"                LOC = "V11 " ;
+NET "seg4x7_1_c"                LOC = "V16 " ;
+NET "seg4x7_1_d"                LOC = "Y18 " ;
+NET "seg4x7_1_e"                LOC = "AA19" ;
+NET "seg4x7_1_f"                LOC = "U12 " ;
+NET "seg4x7_1_g"                LOC = "V15 " ;
+NET "seg4x7_1_dp"               LOC = "W17 " ;
+NET "seg4x7_1_sel[1]"           LOC = "V14 " ;
+NET "seg4x7_1_sel[2]"           LOC = "W13 " ;
+NET "seg4x7_1_sel[3]"           LOC = "V13 " ;
+NET "seg4x7_1_sel[4]"           LOC = "U15 " ;
+
+NET "seg4x7_2_a"                LOC = "AD17" ;  # 右2，4位7段数码管
+NET "seg4x7_2_b"                LOC = "AC20" ;
+NET "seg4x7_2_c"                LOC = "AF19" ;
+NET "seg4x7_2_d"                LOC = "AF17" ;
+NET "seg4x7_2_e"                LOC = "AF16" ;
+NET "seg4x7_2_f"                LOC = "AE17" ;
+NET "seg4x7_2_g"                LOC = "AD21" ;
+NET "seg4x7_2_dp"               LOC = "AF18" ;
+NET "seg4x7_2_sel[1]"           LOC = "AC16" ;
+NET "seg4x7_2_sel[2]"           LOC = "AE19" ;
+NET "seg4x7_2_sel[3]"           LOC = "AD19" ;
+NET "seg4x7_2_sel[4]"           LOC = "AB18" ;
+
+NET "seg_single_a"              LOC = "AC14" ;  # 1位7段数码管
+NET "seg_single_b"              LOC = "AF15" ;
+NET "seg_single_c"              LOC = "AB15" ;
+NET "seg_single_d"              LOC = "AB13" ;
+NET "seg_single_e"              LOC = "AC13" ;
+NET "seg_single_f"              LOC = "AD13" ;
+NET "seg_single_g"              LOC = "AE13" ;
+NET "seg_single_dp"             LOC = "AC15" ;
+NET "seg_single_sel"            LOC = "AC11" ;
